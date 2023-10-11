@@ -1,0 +1,41 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    background-color: #111827;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.heading {
+    color: white;
+}
+
+a {
+    text-decoration: none;
+    color: lightblue;
+}
+
+.top {
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+.recipes {
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: center;
+}
+
+.recipes ul {
+    margin-top: 5px;
+    padding: 0px;
+    align-items: start;
+}
+
+.return-home {
+    text-align: center;
+    padding-top: 1rem;
+}
